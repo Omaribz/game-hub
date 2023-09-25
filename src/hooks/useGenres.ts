@@ -10,7 +10,7 @@ interface FetchGenresResponse {
     count: number;
     results: Genre[];
 }
-const useGenre = () => {
+const useGenres = () => {
     const [genres, setGenres] = useState<Genre[]>([]);
     const [error, setError] = useState("");
     const [isLoading, setLoading] = useState(false);
@@ -37,4 +37,4 @@ const useGenre = () => {
   return {genres, error, isLoading};
 }
 
-export default useGenre;
+export default useGenres;
