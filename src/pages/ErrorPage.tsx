@@ -13,7 +13,7 @@ const ErrorPage = () => {
         <Text>
           {isRouteErrorResponse(error)
             ? "This page does not exist."
-            : "An unexpected error occurred"}
+            : "An unexpected error occurred."}
         </Text>
       </Box>
     </>
